@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60E1FCA2056F7AE001EAC2B /* RandomObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60E1FC92056F7AE001EAC2B /* RandomObjectsViewController.swift */; };
 		A6FDFFED204F0B5C0010068B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDFFEC204F0B5C0010068B /* AppDelegate.swift */; };
-		A6FDFFEF204F0B5C0010068B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDFFEE204F0B5C0010068B /* ViewController.swift */; };
+		A6FDFFEF204F0B5C0010068B /* LifeCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDFFEE204F0B5C0010068B /* LifeCounterViewController.swift */; };
 		A6FDFFF2204F0B5C0010068B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FDFFF0204F0B5C0010068B /* Main.storyboard */; };
 		A6FDFFF4204F0B5C0010068B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FDFFF3204F0B5C0010068B /* Assets.xcassets */; };
 		A6FDFFF7204F0B5C0010068B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FDFFF5204F0B5C0010068B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A60E1FC92056F7AE001EAC2B /* RandomObjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomObjectsViewController.swift; sourceTree = "<group>"; };
 		A6FDFFE9204F0B5C0010068B /* Midterm App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midterm App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FDFFEC204F0B5C0010068B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6FDFFEE204F0B5C0010068B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6FDFFEE204F0B5C0010068B /* LifeCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCounterViewController.swift; sourceTree = "<group>"; };
 		A6FDFFF1204F0B5C0010068B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6FDFFF3204F0B5C0010068B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6FDFFF6204F0B5C0010068B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,10 +37,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A60E1FC82056F59D001EAC2B /* Life Counter */ = {
+			isa = PBXGroup;
+			children = (
+				A6FDFFEE204F0B5C0010068B /* LifeCounterViewController.swift */,
+			);
+			path = "Life Counter";
+			sourceTree = "<group>";
+		};
+		A60E1FCB2056F7B5001EAC2B /* Roll Dice */ = {
+			isa = PBXGroup;
+			children = (
+				A60E1FC92056F7AE001EAC2B /* RandomObjectsViewController.swift */,
+			);
+			path = "Roll Dice";
+			sourceTree = "<group>";
+		};
 		A6FDFFE0204F0B5C0010068B = {
 			isa = PBXGroup;
 			children = (
 				A6FDFFEB204F0B5C0010068B /* Midterm App */,
+				A60E1FC82056F59D001EAC2B /* Life Counter */,
+				A60E1FCB2056F7B5001EAC2B /* Roll Dice */,
 				A6FDFFEA204F0B5C0010068B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				A6FDFFEC204F0B5C0010068B /* AppDelegate.swift */,
-				A6FDFFEE204F0B5C0010068B /* ViewController.swift */,
 				A6FDFFF0204F0B5C0010068B /* Main.storyboard */,
 				A6FDFFF3204F0B5C0010068B /* Assets.xcassets */,
 				A6FDFFF5204F0B5C0010068B /* LaunchScreen.storyboard */,
@@ -136,7 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6FDFFEF204F0B5C0010068B /* ViewController.swift in Sources */,
+				A60E1FCA2056F7AE001EAC2B /* RandomObjectsViewController.swift in Sources */,
+				A6FDFFEF204F0B5C0010068B /* LifeCounterViewController.swift in Sources */,
 				A6FDFFED204F0B5C0010068B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
