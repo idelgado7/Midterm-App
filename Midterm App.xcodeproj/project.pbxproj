@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60CA51C205755D30046424F /* TradeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60CA51B205755D30046424F /* TradeTableViewController.swift */; };
 		A60E1FCA2056F7AE001EAC2B /* RandomObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60E1FC92056F7AE001EAC2B /* RandomObjectsViewController.swift */; };
+		A692D7CA205743B80061303D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A692D7C9205743B80061303D /* PageViewController.swift */; };
 		A6FDFFED204F0B5C0010068B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDFFEC204F0B5C0010068B /* AppDelegate.swift */; };
 		A6FDFFEF204F0B5C0010068B /* LifeCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDFFEE204F0B5C0010068B /* LifeCounterViewController.swift */; };
 		A6FDFFF2204F0B5C0010068B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FDFFF0204F0B5C0010068B /* Main.storyboard */; };
@@ -16,7 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A60CA51B205755D30046424F /* TradeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeTableViewController.swift; sourceTree = "<group>"; };
 		A60E1FC92056F7AE001EAC2B /* RandomObjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomObjectsViewController.swift; sourceTree = "<group>"; };
+		A692D7C9205743B80061303D /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageViewController.swift; path = ../PageViewController.swift; sourceTree = "<group>"; };
 		A6FDFFE9204F0B5C0010068B /* Midterm App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midterm App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FDFFEC204F0B5C0010068B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6FDFFEE204F0B5C0010068B /* LifeCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCounterViewController.swift; sourceTree = "<group>"; };
@@ -53,12 +57,22 @@
 			path = "Roll Dice";
 			sourceTree = "<group>";
 		};
+		A692D7C62057415C0061303D /* Trading */ = {
+			isa = PBXGroup;
+			children = (
+				A692D7C9205743B80061303D /* PageViewController.swift */,
+				A60CA51B205755D30046424F /* TradeTableViewController.swift */,
+			);
+			path = Trading;
+			sourceTree = "<group>";
+		};
 		A6FDFFE0204F0B5C0010068B = {
 			isa = PBXGroup;
 			children = (
 				A6FDFFEB204F0B5C0010068B /* Midterm App */,
 				A60E1FC82056F59D001EAC2B /* Life Counter */,
 				A60E1FCB2056F7B5001EAC2B /* Roll Dice */,
+				A692D7C62057415C0061303D /* Trading */,
 				A6FDFFEA204F0B5C0010068B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -157,7 +171,9 @@
 			files = (
 				A60E1FCA2056F7AE001EAC2B /* RandomObjectsViewController.swift in Sources */,
 				A6FDFFEF204F0B5C0010068B /* LifeCounterViewController.swift in Sources */,
+				A60CA51C205755D30046424F /* TradeTableViewController.swift in Sources */,
 				A6FDFFED204F0B5C0010068B /* AppDelegate.swift in Sources */,
+				A692D7CA205743B80061303D /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
