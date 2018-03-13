@@ -33,17 +33,7 @@ class RandomObjectsViewController: UIViewController {
     
     // MARK: - Coin Flipping @IBActions
     @IBAction func flipCoin(_ sender: UIButton) {
-//        Outcome = Int(arc4random_uniform(2))
         numberOfPermutations = 2
-//        randomize()
-        
-        if Outcome == 1 {
-            Result.text! = "Heads"
-            FlipResult = "Heads"
-        } else {
-            Result.text! = "Tails"
-            FlipResult = "Tails"
-        }
         showFlipResult()
     }
     
@@ -77,17 +67,21 @@ class RandomObjectsViewController: UIViewController {
     }
     
     // MARK: - Methods
-    // Randomize Our Die Rolls
+    // Our Random Elements
     
-    
+    // Method to roll a known number of dice
     func rollDice() {
         randomize()
         showRollResult()
     }
+    
+    // Method to get the actual outcome of the die roll, returns in int.
     func randomize() {
         Outcome = 1 + Int(arc4random_uniform((UInt32(numberOfPermutations))))
         
     }
+    
+    // Method to show the result of the coin flip in a UI Alert
     func showFlipResult() {
         randomize()
         if Outcome == 1 {
@@ -105,6 +99,7 @@ class RandomObjectsViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     
+    // Method to show the result of a die roll in a UI Alert
     func showRollResult() {
         randomize()
         Result.text = "\(Outcome)"
@@ -117,6 +112,7 @@ class RandomObjectsViewController: UIViewController {
     }
     
     
+    // Method for an x-sided die roll
     func XNumberOfSides(){
         
         // Sets the title of the alert
@@ -129,8 +125,14 @@ class RandomObjectsViewController: UIViewController {
             let NumberOfSides = alertController.textFields?[0].text
 
             let temp = Int(NumberOfSides!)
-            self.Result.text = "\(1 + arc4random_uniform(UInt32(temp!)))"
+            let inter = 1 + arc4random_uniform(UInt32(temp!))
+            self.Result.text = "\(inter)"
+            let message = "\(inter)"
+            let alert = UIAlertController(title:"Roll Result", message: message, preferredStyle: .alert)
+            let action = UIAlertAction(title: "Ok", style: .default)
             
+            alert.addAction(action)
+            self.present(alert, animated: true, completion: nil)
             
         }
         
