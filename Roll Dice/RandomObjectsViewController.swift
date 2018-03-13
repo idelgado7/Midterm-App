@@ -11,7 +11,9 @@ import UIKit
 class RandomObjectsViewController: UIViewController {
 
     var Outcome: Int = 0
+    var FlipResult = ""
     var numberOfPermutations: Int = 0
+//    let title: String = "Roll Result"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,33 +33,43 @@ class RandomObjectsViewController: UIViewController {
     
     // MARK: - Coin Flipping @IBActions
     @IBAction func flipCoin(_ sender: UIButton) {
-        Outcome = Int(arc4random_uniform(2))
+//        Outcome = Int(arc4random_uniform(2))
+        numberOfPermutations = 2
+//        randomize()
+        
         if Outcome == 1 {
             Result.text! = "Heads"
+            FlipResult = "Heads"
         } else {
             Result.text! = "Tails"
+            FlipResult = "Tails"
         }
+        showFlipResult()
     }
     
     // MARK: - Dice Rolling @IBActions
     @IBAction func roll6SidedDice(_ sender: UIButton) {
         numberOfPermutations = 6
-        randomize()
+        rollDice()
+
     }
     
     @IBAction func roll4SidedDice(_ sender: UIButton) {
         numberOfPermutations = 4
-        randomize()
+        rollDice()
+
     }
     
     @IBAction func roll20SidedDice(_ sender: UIButton) {
         numberOfPermutations = 20
-        randomize()
+        rollDice()
+
     }
     
     @IBAction func roll10SidedDice(_ sender: UIButton) {
         numberOfPermutations = 10
-        randomize()
+        rollDice()
+
     }
     
     @IBAction func rollXsidedDice() {
@@ -66,9 +78,42 @@ class RandomObjectsViewController: UIViewController {
     
     // MARK: - Methods
     // Randomize Our Die Rolls
+    
+    
+    func rollDice() {
+        randomize()
+        showRollResult()
+    }
     func randomize() {
         Outcome = 1 + Int(arc4random_uniform((UInt32(numberOfPermutations))))
+        
+    }
+    func showFlipResult() {
+        randomize()
+        if Outcome == 1 {
+            Result.text! = "Heads"
+            FlipResult = "Heads"
+        } else {
+            Result.text! = "Tails"
+            FlipResult = "Tails"
+        }
+        let message = FlipResult
+        let alert = UIAlertController(title:"Flip Result", message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: "Ok", style: .default)
+        
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
+    }
+    
+    func showRollResult() {
+        randomize()
         Result.text = "\(Outcome)"
+        let message = "\(Outcome)"
+        let alert = UIAlertController(title:"Roll Result", message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: "Ok", style: .default)
+        
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
     }
     
     
@@ -107,5 +152,4 @@ class RandomObjectsViewController: UIViewController {
         
 
     }
-
 }
