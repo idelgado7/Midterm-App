@@ -21,12 +21,6 @@ class LifeCounterViewController: UIViewController {
         startNewGame()
     }
     
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     // MARK: - IBOutlets
     @IBOutlet weak var Player1Life: UILabel!
     @IBOutlet weak var Player2Life: UILabel!
@@ -37,8 +31,6 @@ class LifeCounterViewController: UIViewController {
 
     // MARK: - IBActions
     @IBAction func startNewGame() {
-        lifetotal1 = 20
-        lifetotal2 = 20
         restartGame()
     }
     // MARK: - IBActions for Player 1

@@ -13,7 +13,6 @@ class RandomObjectsViewController: UIViewController {
     var Outcome: Int = 0
     var FlipResult = ""
     var numberOfPermutations: Int = 0
-//    let title: String = "Roll Result"
     
     override func viewDidLoad() {
         super.viewDidLoad()

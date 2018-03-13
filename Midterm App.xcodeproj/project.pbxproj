@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A60E1FCA2056F7AE001EAC2B /* RandomObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60E1FC92056F7AE001EAC2B /* RandomObjectsViewController.swift */; };
+		A6814D37205869C10060BC9F /* ManaCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6814D36205869C10060BC9F /* ManaCounterViewController.swift */; };
 		A6FDFFED204F0B5C0010068B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDFFEC204F0B5C0010068B /* AppDelegate.swift */; };
 		A6FDFFEF204F0B5C0010068B /* LifeCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDFFEE204F0B5C0010068B /* LifeCounterViewController.swift */; };
 		A6FDFFF2204F0B5C0010068B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FDFFF0204F0B5C0010068B /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		A60E1FC92056F7AE001EAC2B /* RandomObjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomObjectsViewController.swift; sourceTree = "<group>"; };
+		A6814D36205869C10060BC9F /* ManaCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManaCounterViewController.swift; sourceTree = "<group>"; };
 		A6FDFFE9204F0B5C0010068B /* Midterm App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midterm App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FDFFEC204F0B5C0010068B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6FDFFEE204F0B5C0010068B /* LifeCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCounterViewController.swift; sourceTree = "<group>"; };
@@ -53,12 +55,21 @@
 			path = "Roll Dice";
 			sourceTree = "<group>";
 		};
+		A6814D35205869800060BC9F /* Mana Counter */ = {
+			isa = PBXGroup;
+			children = (
+				A6814D36205869C10060BC9F /* ManaCounterViewController.swift */,
+			);
+			path = "Mana Counter";
+			sourceTree = "<group>";
+		};
 		A6FDFFE0204F0B5C0010068B = {
 			isa = PBXGroup;
 			children = (
 				A6FDFFEB204F0B5C0010068B /* Midterm App */,
 				A60E1FC82056F59D001EAC2B /* Life Counter */,
 				A60E1FCB2056F7B5001EAC2B /* Roll Dice */,
+				A6814D35205869800060BC9F /* Mana Counter */,
 				A6FDFFEA204F0B5C0010068B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -157,6 +168,7 @@
 			files = (
 				A60E1FCA2056F7AE001EAC2B /* RandomObjectsViewController.swift in Sources */,
 				A6FDFFEF204F0B5C0010068B /* LifeCounterViewController.swift in Sources */,
+				A6814D37205869C10060BC9F /* ManaCounterViewController.swift in Sources */,
 				A6FDFFED204F0B5C0010068B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
