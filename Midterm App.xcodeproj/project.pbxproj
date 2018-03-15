@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A60E1FCA2056F7AE001EAC2B /* RandomObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60E1FC92056F7AE001EAC2B /* RandomObjectsViewController.swift */; };
+		A625C3072059CE5C000E37D1 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A625C3062059CE5C000E37D1 /* TabBarViewController.swift */; };
+		A625C30D2059D211000E37D1 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = A625C30C2059D211000E37D1 /* heart.png */; };
 		A6814D37205869C10060BC9F /* ManaCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6814D36205869C10060BC9F /* ManaCounterViewController.swift */; };
 		A6FDFFED204F0B5C0010068B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDFFEC204F0B5C0010068B /* AppDelegate.swift */; };
 		A6FDFFEF204F0B5C0010068B /* LifeCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDFFEE204F0B5C0010068B /* LifeCounterViewController.swift */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		A60E1FC92056F7AE001EAC2B /* RandomObjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomObjectsViewController.swift; sourceTree = "<group>"; };
+		A625C3062059CE5C000E37D1 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		A625C30C2059D211000E37D1 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 		A6814D36205869C10060BC9F /* ManaCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManaCounterViewController.swift; sourceTree = "<group>"; };
 		A6FDFFE9204F0B5C0010068B /* Midterm App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midterm App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FDFFEC204F0B5C0010068B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 		A6FDFFE0204F0B5C0010068B = {
 			isa = PBXGroup;
 			children = (
+				A625C30C2059D211000E37D1 /* heart.png */,
 				A6FDFFEB204F0B5C0010068B /* Midterm App */,
 				A60E1FC82056F59D001EAC2B /* Life Counter */,
 				A60E1FCB2056F7B5001EAC2B /* Roll Dice */,
@@ -85,6 +90,7 @@
 		A6FDFFEB204F0B5C0010068B /* Midterm App */ = {
 			isa = PBXGroup;
 			children = (
+				A625C3062059CE5C000E37D1 /* TabBarViewController.swift */,
 				A6FDFFEC204F0B5C0010068B /* AppDelegate.swift */,
 				A6FDFFF0204F0B5C0010068B /* Main.storyboard */,
 				A6FDFFF3204F0B5C0010068B /* Assets.xcassets */,
@@ -153,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A625C30D2059D211000E37D1 /* heart.png in Resources */,
 				A6FDFFF7204F0B5C0010068B /* LaunchScreen.storyboard in Resources */,
 				A6FDFFF4204F0B5C0010068B /* Assets.xcassets in Resources */,
 				A6FDFFF2204F0B5C0010068B /* Main.storyboard in Resources */,
@@ -169,6 +176,7 @@
 				A60E1FCA2056F7AE001EAC2B /* RandomObjectsViewController.swift in Sources */,
 				A6FDFFEF204F0B5C0010068B /* LifeCounterViewController.swift in Sources */,
 				A6814D37205869C10060BC9F /* ManaCounterViewController.swift in Sources */,
+				A625C3072059CE5C000E37D1 /* TabBarViewController.swift in Sources */,
 				A6FDFFED204F0B5C0010068B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

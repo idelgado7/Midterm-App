@@ -74,10 +74,9 @@ class LifeCounterViewController: UIViewController {
     }
     
     // FIXME: - Set Player 1 Life
-//    @IBAction func setPlayer1Life(_ sender: UIButton) {
-//
-//
-//    }
+    @IBAction func setLifePlayer1(_ sender: UIButton) {
+        setLife1()
+    }
     
     
     // MARK: - IBActions for Player 2
@@ -118,6 +117,9 @@ class LifeCounterViewController: UIViewController {
         }
     }
     
+    @IBAction func setLifePlayer2(_ sender: UIButton) {
+        setLife2()
+    }
     
     // MARK: - Methods
     func restartGame() {
@@ -139,5 +141,76 @@ class LifeCounterViewController: UIViewController {
         Player2Poison.text = "\(poison2)"
     }
     
+    func setLife1(){
+        
+        // Sets the title of the alert
+        let alertController = UIAlertController(title: "New Life Total?", message: "Enter New Life Total", preferredStyle: .alert)
+        
+        // The Confirm Action taking the inputs
+        let confirmAction = UIAlertAction(title: "Enter", style: .default) { (_) in
+            
+            // Getting the input values from user
+            let newLife1 = alertController.textFields?[0].text
+            self.Player1Life.text = "\(newLife1!)"
+            self.lifetotal1 = Int(newLife1!)!
+            
+
+            
+        }
+        
+        // The cancel action doing nothing
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (_) in }
+        
+        // Adding textfields to our dialog box
+        alertController.addTextField { (textField) in
+            textField.placeholder = "Enter New Life Total"
+            textField.keyboardType = .numberPad
+        }
+        
+        // Adding Actions to dialog box
+        alertController.addAction(confirmAction)
+        alertController.addAction(cancelAction)
+        
+        // Presenting the dialog box
+        self.present(alertController, animated: true, completion: nil)
+        
+        
+    }
+    
+    func setLife2(){
+        
+        // Sets the title of the alert
+        let alertController = UIAlertController(title: "New Life Total?", message: "Enter New Life Total", preferredStyle: .alert)
+        
+        // The Confirm Action taking the inputs
+        let confirmAction = UIAlertAction(title: "Enter", style: .default) { (_) in
+            
+            // Getting the input values from user
+            let newLife2 = alertController.textFields?[0].text
+            self.Player2Life.text = "\(newLife2!)"
+            self.lifetotal2 = Int(newLife2!)!
+            
+            
+            
+        }
+        
+        // The cancel action doing nothing
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (_) in }
+        
+        // Adding textfields to our dialog box
+        alertController.addTextField { (textField) in
+            textField.placeholder = "Enter New Life Total"
+            textField.keyboardType = .numberPad
+        }
+        
+        // Adding Actions to dialog box
+        alertController.addAction(confirmAction)
+        alertController.addAction(cancelAction)
+        
+        // Presenting the dialog box
+        self.present(alertController, animated: true, completion: nil)
+        
+        
+    }
 }
 

@@ -225,11 +225,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJl-Gm-VU7">
+                                <rect key="frame" x="12" y="269" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Set Life1"/>
+                                <connections>
+                                    <action selector="setLifePlayer1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VbW-Tk-whU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21P-Gl-pt0">
+                                <rect key="frame" x="219" y="269" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Set Life2"/>
+                                <connections>
+                                    <action selector="setLifePlayer2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cgd-BO-GS4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Life Counter" id="B82-re-n4c"/>
+                    <tabBarItem key="tabBarItem" title="Life Counter" image="heart.png" id="B82-re-n4c"/>
                     <connections>
                         <outlet property="Player1Energy" destination="rpI-B5-Jro" id="Evh-Wm-aYf"/>
                         <outlet property="Player1Life" destination="QRk-pj-Wwe" id="Ivz-Cf-U2v"/>
@@ -241,7 +257,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-894" y="-1374"/>
+            <point key="canvasLocation" x="-894.375" y="-1374.2957746478874"/>
         </scene>
         <!--Randomizer-->
         <scene sceneID="eiL-tC-xvq">
@@ -252,7 +268,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zn-8h-kK0">
-                                <rect key="frame" x="46" y="269" width="66" height="30"/>
+                                <rect key="frame" x="46" y="148" width="66" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Roll 6"/>
                                 <connections>
@@ -260,7 +276,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCa-Ne-LcJ">
-                                <rect key="frame" x="194" y="271" width="74" height="25"/>
+                                <rect key="frame" x="199" y="150" width="74" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Roll 20"/>
                                 <connections>
@@ -282,7 +298,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cl-yH-gri">
-                                <rect key="frame" x="105" y="202" width="111" height="30"/>
+                                <rect key="frame" x="105" y="84" width="111" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Coin Flip"/>
                                 <connections>
@@ -290,27 +306,27 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfS-qz-Y2r">
-                                <rect key="frame" x="46" y="354" width="66" height="30"/>
+                                <rect key="frame" x="46" y="280" width="66" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Roll 4"/>
                                 <connections>
                                     <action selector="roll4SidedDice:" destination="FWt-46-D36" eventType="touchUpInside" id="ilg-ky-E14"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEw-Ut-Z2m">
+                                <rect key="frame" x="98" y="388" width="125" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="X - Sided Dice"/>
+                                <connections>
+                                    <action selector="rollXsidedDice" destination="FWt-46-D36" eventType="touchUpInside" id="Gn7-U7-E27"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="754-qY-C58">
-                                <rect key="frame" x="194" y="354" width="74" height="30"/>
+                                <rect key="frame" x="199" y="280" width="74" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Roll 10"/>
                                 <connections>
                                     <action selector="roll10SidedDice:" destination="FWt-46-D36" eventType="touchUpInside" id="eob-Bh-OPc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEw-Ut-Z2m">
-                                <rect key="frame" x="98" y="442" width="125" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Testing X"/>
-                                <connections>
-                                    <action selector="rollXsidedDice" destination="FWt-46-D36" eventType="touchUpInside" id="Gn7-U7-E27"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -634,4 +650,7 @@
             <point key="canvasLocation" x="-1693" y="-127"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="heart.png" width="30" height="30"/>
+    </resources>
 </document>
