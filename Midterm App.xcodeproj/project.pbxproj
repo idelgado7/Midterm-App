@@ -25,10 +25,23 @@
 		A66B11F3205BCFCD00CDE190 /* increase.png in Resources */ = {isa = PBXBuildFile; fileRef = A66B11F1205BCFCC00CDE190 /* increase.png */; };
 		A66B11F4205BCFCD00CDE190 /* decrease.png in Resources */ = {isa = PBXBuildFile; fileRef = A66B11F2205BCFCD00CDE190 /* decrease.png */; };
 		A66B11F8205BD34900CDE190 /* dice.png in Resources */ = {isa = PBXBuildFile; fileRef = A66B11F7205BD34900CDE190 /* dice.png */; };
-		A66B11FB205BD39A00CDE190 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66B11FA205BD39A00CDE190 /* TabBarViewController.swift */; };
 		A66B11FD205BD43A00CDE190 /* trade.png in Resources */ = {isa = PBXBuildFile; fileRef = A66B11FC205BD43A00CDE190 /* trade.png */; };
 		A66B1201205BD51A00CDE190 /* counter.png in Resources */ = {isa = PBXBuildFile; fileRef = A66B1200205BD51900CDE190 /* counter.png */; };
+		A66B1209205C0AA500CDE190 /* 10sided.png in Resources */ = {isa = PBXBuildFile; fileRef = A66B1203205C0AA400CDE190 /* 10sided.png */; };
+		A66B120A205C0AA500CDE190 /* 6sided.png in Resources */ = {isa = PBXBuildFile; fileRef = A66B1204205C0AA400CDE190 /* 6sided.png */; };
+		A66B120B205C0AA500CDE190 /* 20sided.png in Resources */ = {isa = PBXBuildFile; fileRef = A66B1205205C0AA400CDE190 /* 20sided.png */; };
+		A66B120C205C0AA500CDE190 /* 4sided.png in Resources */ = {isa = PBXBuildFile; fileRef = A66B1206205C0AA500CDE190 /* 4sided.png */; };
+		A66B120D205C0AA500CDE190 /* flipcoin.png in Resources */ = {isa = PBXBuildFile; fileRef = A66B1207205C0AA500CDE190 /* flipcoin.png */; };
+		A66B120E205C0AA500CDE190 /* xsided.png in Resources */ = {isa = PBXBuildFile; fileRef = A66B1208205C0AA500CDE190 /* xsided.png */; };
+		A66B1213205C103700CDE190 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66B1212205C103700CDE190 /* SearchTableViewController.swift */; };
+		A66B1215205C111200CDE190 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66B1214205C111200CDE190 /* Cards.swift */; };
+		A66B1217205C188000CDE190 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66B1216205C188000CDE190 /* DetailViewController.swift */; };
 		A6814D37205869C10060BC9F /* ManaCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6814D36205869C10060BC9F /* ManaCounterViewController.swift */; };
+		A6BF563B205C361500B7C106 /* the scarab god.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BF5638205C361500B7C106 /* the scarab god.png */; };
+		A6BF563C205C361500B7C106 /* lightning bolt.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BF5639205C361500B7C106 /* lightning bolt.png */; };
+		A6BF563D205C361500B7C106 /* snapcaster mage.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BF563A205C361500B7C106 /* snapcaster mage.png */; };
+		A6BF563F205C5AE900B7C106 /* ponder.png in Resources */ = {isa = PBXBuildFile; fileRef = A6BF563E205C5AE900B7C106 /* ponder.png */; };
+		A6E34683205C72AE0006A247 /* mox opal.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E34682205C72AE0006A247 /* mox opal.png */; };
 		A6FDFFED204F0B5C0010068B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDFFEC204F0B5C0010068B /* AppDelegate.swift */; };
 		A6FDFFEF204F0B5C0010068B /* LifeCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDFFEE204F0B5C0010068B /* LifeCounterViewController.swift */; };
 		A6FDFFF2204F0B5C0010068B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FDFFF0204F0B5C0010068B /* Main.storyboard */; };
@@ -55,10 +68,23 @@
 		A66B11F1205BCFCC00CDE190 /* increase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = increase.png; sourceTree = "<group>"; };
 		A66B11F2205BCFCD00CDE190 /* decrease.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decrease.png; sourceTree = "<group>"; };
 		A66B11F7205BD34900CDE190 /* dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice.png; sourceTree = "<group>"; };
-		A66B11FA205BD39A00CDE190 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		A66B11FC205BD43A00CDE190 /* trade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trade.png; sourceTree = "<group>"; };
 		A66B1200205BD51900CDE190 /* counter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = counter.png; sourceTree = "<group>"; };
+		A66B1203205C0AA400CDE190 /* 10sided.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10sided.png; sourceTree = "<group>"; };
+		A66B1204205C0AA400CDE190 /* 6sided.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6sided.png; sourceTree = "<group>"; };
+		A66B1205205C0AA400CDE190 /* 20sided.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20sided.png; sourceTree = "<group>"; };
+		A66B1206205C0AA500CDE190 /* 4sided.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4sided.png; sourceTree = "<group>"; };
+		A66B1207205C0AA500CDE190 /* flipcoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flipcoin.png; sourceTree = "<group>"; };
+		A66B1208205C0AA500CDE190 /* xsided.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xsided.png; sourceTree = "<group>"; };
+		A66B1212205C103700CDE190 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		A66B1214205C111200CDE190 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		A66B1216205C188000CDE190 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A6814D36205869C10060BC9F /* ManaCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManaCounterViewController.swift; sourceTree = "<group>"; };
+		A6BF5638205C361500B7C106 /* the scarab god.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "the scarab god.png"; sourceTree = "<group>"; };
+		A6BF5639205C361500B7C106 /* lightning bolt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lightning bolt.png"; sourceTree = "<group>"; };
+		A6BF563A205C361500B7C106 /* snapcaster mage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snapcaster mage.png"; sourceTree = "<group>"; };
+		A6BF563E205C5AE900B7C106 /* ponder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ponder.png; sourceTree = "<group>"; };
+		A6E34682205C72AE0006A247 /* mox opal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mox opal.png"; sourceTree = "<group>"; };
 		A6FDFFE9204F0B5C0010068B /* Midterm App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midterm App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FDFFEC204F0B5C0010068B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6FDFFEE204F0B5C0010068B /* LifeCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCounterViewController.swift; sourceTree = "<group>"; };
@@ -87,12 +113,12 @@
 			path = "Life Counter";
 			sourceTree = "<group>";
 		};
-		A60E1FCB2056F7B5001EAC2B /* Roll Dice */ = {
+		A60E1FCB2056F7B5001EAC2B /* Randomizer */ = {
 			isa = PBXGroup;
 			children = (
 				A60E1FC92056F7AE001EAC2B /* RandomObjectsViewController.swift */,
 			);
-			path = "Roll Dice";
+			path = Randomizer;
 			sourceTree = "<group>";
 		};
 		A625C3122059F5A3000E37D1 /* Trade */ = {
@@ -106,6 +132,9 @@
 		A66B11D1205B496700CDE190 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				A66B1212205C103700CDE190 /* SearchTableViewController.swift */,
+				A66B1216205C188000CDE190 /* DetailViewController.swift */,
+				A66B1214205C111200CDE190 /* Cards.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -113,6 +142,8 @@
 		A66B11D6205BCA2900CDE190 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A6BF5637205C360600B7C106 /* Card Images */,
+				A66B120F205C0AAC00CDE190 /* Randomizer */,
 				A66B11F9205BD36500CDE190 /* TabBarIcons */,
 				A66B11EA205BCDDA00CDE190 /* LifeCounterImages */,
 				A66B11E5205BCB7A00CDE190 /* ManaCounterImages */,
@@ -159,6 +190,19 @@
 			path = TabBarIcons;
 			sourceTree = "<group>";
 		};
+		A66B120F205C0AAC00CDE190 /* Randomizer */ = {
+			isa = PBXGroup;
+			children = (
+				A66B1206205C0AA500CDE190 /* 4sided.png */,
+				A66B1204205C0AA400CDE190 /* 6sided.png */,
+				A66B1203205C0AA400CDE190 /* 10sided.png */,
+				A66B1205205C0AA400CDE190 /* 20sided.png */,
+				A66B1207205C0AA500CDE190 /* flipcoin.png */,
+				A66B1208205C0AA500CDE190 /* xsided.png */,
+			);
+			path = Randomizer;
+			sourceTree = "<group>";
+		};
 		A6814D35205869800060BC9F /* Mana Counter */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,13 +211,26 @@
 			path = "Mana Counter";
 			sourceTree = "<group>";
 		};
+		A6BF5637205C360600B7C106 /* Card Images */ = {
+			isa = PBXGroup;
+			children = (
+				A6BF5639205C361500B7C106 /* lightning bolt.png */,
+				A6E34682205C72AE0006A247 /* mox opal.png */,
+				A6BF563E205C5AE900B7C106 /* ponder.png */,
+				A6BF563A205C361500B7C106 /* snapcaster mage.png */,
+				A6BF5638205C361500B7C106 /* the scarab god.png */,
+			);
+			path = "Card Images";
+			sourceTree = "<group>";
+		};
 		A6FDFFE0204F0B5C0010068B = {
 			isa = PBXGroup;
 			children = (
+				A6FDFFF0204F0B5C0010068B /* Main.storyboard */,
 				A66B11D6205BCA2900CDE190 /* Images */,
 				A6FDFFEB204F0B5C0010068B /* Midterm App */,
 				A60E1FC82056F59D001EAC2B /* Life Counter */,
-				A60E1FCB2056F7B5001EAC2B /* Roll Dice */,
+				A60E1FCB2056F7B5001EAC2B /* Randomizer */,
 				A6814D35205869800060BC9F /* Mana Counter */,
 				A625C3122059F5A3000E37D1 /* Trade */,
 				A66B11D1205B496700CDE190 /* Search */,
@@ -192,9 +249,7 @@
 		A6FDFFEB204F0B5C0010068B /* Midterm App */ = {
 			isa = PBXGroup;
 			children = (
-				A66B11FA205BD39A00CDE190 /* TabBarViewController.swift */,
 				A6FDFFEC204F0B5C0010068B /* AppDelegate.swift */,
-				A6FDFFF0204F0B5C0010068B /* Main.storyboard */,
 				A6FDFFF3204F0B5C0010068B /* Assets.xcassets */,
 				A6FDFFF5204F0B5C0010068B /* LaunchScreen.storyboard */,
 				A6FDFFF8204F0B5C0010068B /* Info.plist */,
@@ -261,16 +316,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66B120E205C0AA500CDE190 /* xsided.png in Resources */,
 				A66B11D0205B480800CDE190 /* search.png in Resources */,
+				A6BF563F205C5AE900B7C106 /* ponder.png in Resources */,
+				A66B120D205C0AA500CDE190 /* flipcoin.png in Resources */,
+				A66B120B205C0AA500CDE190 /* 20sided.png in Resources */,
 				A625C30D2059D211000E37D1 /* heart.png in Resources */,
 				A66B11DE205BCB6E00CDE190 /* colorless.png in Resources */,
 				A66B11DF205BCB6E00CDE190 /* blue.png in Resources */,
 				A66B11FD205BD43A00CDE190 /* trade.png in Resources */,
+				A66B120A205C0AA500CDE190 /* 6sided.png in Resources */,
 				A66B11E8205BCC9F00CDE190 /* minus.png in Resources */,
 				A66B11EC205BCDF700CDE190 /* poison.png in Resources */,
 				A66B11E2205BCB6E00CDE190 /* storm.png in Resources */,
+				A66B1209205C0AA500CDE190 /* 10sided.png in Resources */,
 				A66B11E0205BCB6E00CDE190 /* energy.png in Resources */,
+				A66B120C205C0AA500CDE190 /* 4sided.png in Resources */,
 				A6FDFFF7204F0B5C0010068B /* LaunchScreen.storyboard in Resources */,
+				A6BF563D205C361500B7C106 /* snapcaster mage.png in Resources */,
+				A6BF563B205C361500B7C106 /* the scarab god.png in Resources */,
 				A6FDFFF4204F0B5C0010068B /* Assets.xcassets in Resources */,
 				A6FDFFF2204F0B5C0010068B /* Main.storyboard in Resources */,
 				A66B11E4205BCB6E00CDE190 /* green.png in Resources */,
@@ -280,8 +344,10 @@
 				A66B11E3205BCB6E00CDE190 /* red.png in Resources */,
 				A66B11F3205BCFCD00CDE190 /* increase.png in Resources */,
 				A66B11D5205BCA1C00CDE190 /* white.png in Resources */,
+				A6BF563C205C361500B7C106 /* lightning bolt.png in Resources */,
 				A66B11E1205BCB6E00CDE190 /* black.png in Resources */,
 				A66B11F4205BCFCD00CDE190 /* decrease.png in Resources */,
+				A6E34683205C72AE0006A247 /* mox opal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,11 +358,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66B1217205C188000CDE190 /* DetailViewController.swift in Sources */,
 				A60E1FCA2056F7AE001EAC2B /* RandomObjectsViewController.swift in Sources */,
 				A6FDFFEF204F0B5C0010068B /* LifeCounterViewController.swift in Sources */,
 				A66B11D3205B49A500CDE190 /* TradeTableViewController.swift in Sources */,
+				A66B1215205C111200CDE190 /* Cards.swift in Sources */,
+				A66B1213205C103700CDE190 /* SearchTableViewController.swift in Sources */,
 				A6814D37205869C10060BC9F /* ManaCounterViewController.swift in Sources */,
-				A66B11FB205BD39A00CDE190 /* TabBarViewController.swift in Sources */,
 				A6FDFFED204F0B5C0010068B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

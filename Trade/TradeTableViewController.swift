@@ -6,6 +6,9 @@
 //  Copyright © 2018 Irving Delgado. All rights reserved.
 //
 
+// As of now, this View Controller does nothing
+
+
 import UIKit
 
 class TradeTableViewController: UITableViewController {

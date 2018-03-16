@@ -147,7 +147,6 @@ class RandomObjectsViewController: UIViewController {
         // Adding Actions to dialog box
         alertController.addAction(confirmAction)
         alertController.addAction(cancelAction)
-        
         // Presenting the dialog box
         self.present(alertController, animated: true, completion: nil)
         
