@@ -2,7 +2,7 @@
 //  TabBarViewController.swift
 //  Midterm App
 //
-//  Created by Irving Delgado on 3/14/18.
+//  Created by Irving Delgado on 3/16/18.
 //  Copyright © 2018 Irving Delgado. All rights reserved.
 //
 
@@ -10,7 +10,6 @@ import UIKit
 
 class TabBarViewController: UITabBarController {
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
